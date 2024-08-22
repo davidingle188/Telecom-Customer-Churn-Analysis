@@ -10,7 +10,7 @@ This project aims to analyze and predict customer churn for a telecom company. T
 - **Performed** data cleaning and exploratory data analysis (EDA) using SQL to understand the data structure and trends.
 
 ### 2. SQL Views Creation
-Created two SQL views to better manage and analyze customer data:
+Created three SQL components to enhance data management and analysis:
 
 - **`prod_churn`:** Table Creation: Creates a new table prod_churn in the telecom_churan schema. It selects data from customer_data and applies transformations to handle empty string values. Numeric columns with empty strings are replaced with zeroes and cast to the appropriate numeric type. Text columns with empty strings are replaced with default values using the COALESCE and NULLIF functions.
 - **`vw_churn_data`:** Displays records of customers whose status is either 'Churned' or 'Stayed'.
